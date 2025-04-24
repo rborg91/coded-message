@@ -17,9 +17,9 @@ def decode_message(coded_message, csv_file):
     # Extend the conversion dictionary to handle capital letters
     extended_conversion_dict = {}
     for key, value in conversion_dict.items():
-        extended_conversion_dict[key] = value
+        extended_conversion_dict[value] = key
         if key.islower():
-            extended_conversion_dict[key.upper()] = value.upper()
+            extended_conversion_dict[value.upper()] = key.upper()
 
     # Convert the characters to decode the message
     converted_message = []
