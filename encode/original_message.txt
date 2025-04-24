@@ -1,0 +1,2 @@
+Use this text document to encode a message. If you can read this it is the original message or has been decoded.
+If not, well then... you are looking at an encoded message. I hope you have the correct character mapping so you can make sense of this.
